@@ -9,16 +9,17 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://kit.fontawesome.com/75319febb3.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js" defer></script>
 </head>
 
 <body>
-    <div class="bg-img"></div>
     <div class="Mask"></div>
     <header>
         <img src="./assets/images/Logo dourada 4.png" alt="">
     </header>
     <main>
         <section class="container1">
+            <div class="bg-img"></div>
             <div class="contentContainer1">
                 <div class="leftContainer1">
                     <div class="texts">
@@ -40,7 +41,11 @@
 
                 </div>
             </div>
+            <canvas id="shapeC1">
+                <p>Your browser doesn't have support to canvas tag</p>
+            </canvas>
         </section>
+        <div class="whatsappButton"> <img src="./assets/images/Vector.png" alt=""></div>
         <section class="container2">
             <h2 class="tittle">O que podemos fazer por você:</h2>
             <div class="line"></div>
@@ -66,6 +71,7 @@
             </div>
         </section>
         <section class="container3">
+           
             <h3>Conheça Nossas Especialidades</h3>
             <h2>Veja como podemos te ajudar!</h2>
             <div class="line white"></div>
@@ -116,6 +122,9 @@
                 <img src="./assets/images/Vector.png" alt="">
                 <p>Falar com Advogado Especialista</p>
             </a>
+            <canvas id="borderBottomC3">
+                <p>Your browser doesn't have support to canvas tag</p>
+            </canvas>
         </section>
         <section class="container4">
             <div class="allCards">
@@ -173,6 +182,7 @@
             </div>
         </section>
         <section class="container6">
+           <canvas id="shapeTopC6"></canvas>
             <h2>Onde estamos localizados?</h2>
             <div class="line white  "></div>
             <div class="contentC6">
@@ -192,6 +202,9 @@
                     </a>
                 </div>
             </div>
+            <canvas id="shapeBottomC6">
+                <p>Your browser doesn't have support to canvas tag</p>
+            </canvas>
         </section>
         <section class="container7">
             <div class="contact">
@@ -267,7 +280,7 @@
     </main>
     <footer>
         <p>Thiago Holanda Advogado</p>
-        <p class="copyright">Copyright &copy; 2022 Thiago Holanda Advogado. Todos os direitos reservados.</p>
+        <p class="copyright">Copyright &copy; <span class="year"></span> Thiago Holanda Advogado. Todos os direitos reservados.</p>
     </footer>
 </body>
 
