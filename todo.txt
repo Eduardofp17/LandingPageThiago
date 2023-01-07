@@ -1,7 +1,0 @@
-todo Fix bugs on container 1  C:\Users\Pichau\Desktop\bugs\container1.jpg
-todo Fix bugs on container 3 - Service's width, font-sizes and line-height of h2 tag
-todo Fix bugs on all - cta's margin left of p tag
-todo Fix bugs on container 5 - .aboutThago(font-size and line-height)
-todo Fix bugs on container 6 - canvasTop 1px of margin-canvasTop
-todo Fix bugs on container 7 - Form button
-todo Fix bugs on container 8 - duvida's width
