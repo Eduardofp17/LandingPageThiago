@@ -206,6 +206,8 @@ header img {
     transition: 0.5s;
     animation: sweep .5s ease-in-out;
     z-index: 12;
+    bottom: 5%;
+    left: 90%;
 }
 
 .whatsappButton i {
@@ -213,8 +215,7 @@ header img {
     padding: 14px 15px;
     background-color: #25D366;
     border-radius: 50px;
-    bottom: 5%;
-    left: 90%;
+   
 }
 
 .whatsappButton:hover {
@@ -232,7 +233,9 @@ header img {
     padding: 30px;
     padding-bottom: 150px;
 }
-
+.container2 .cta{
+    display: none;
+}
 .tittle {
     font-weight: bold;
     font-style: normal;
