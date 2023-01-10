@@ -967,6 +967,9 @@ footer {
         flex-direction: column;
         gap: 150px;
     }
+    .contentC2 .cta{
+        display: flex;
+    }
     .service p {
         font-size: 13px;
     }
