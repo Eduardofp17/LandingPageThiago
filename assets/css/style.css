@@ -28,7 +28,7 @@ body,
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
-
+    scroll-behavior: smooth;
 }
 
 button {
@@ -563,8 +563,11 @@ form {
     gap: 20px;
 }
 
-.form a {
+.form .cta {
     width: 300px;
+    border: none;
+    color: #000;
+    font-weight: bold;
 }
 
 .name {
@@ -573,7 +576,7 @@ form {
     gap: 5px;
 }
 
-.email {
+.cellphoneNumber {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -802,10 +805,14 @@ footer {
 
     .cta p {
         font-size: 14px;
+        margin: auto;
+        padding-top: 0px;
+        padding-bottom: 2px;
     }
 
     .cta i {
         font-size: 25px;
+        margin: auto;
     }
 
     .container2 h2 {
@@ -843,12 +850,8 @@ footer {
         width: 250px;
     }
 
-    .form a {
-        width: 260px;
-    }
-
-    .form a p {
-        margin: auto;
+    .form .cta {
+        width: 210px;
     }
 
     .container5 {
@@ -899,7 +902,8 @@ footer {
         margin: auto;
         width: 100%;
         height: auto;
-        background: rgba(0, 0, 0, 0.95);
+        background: rgba(0, 0, 0, 0.95); 
+        padding-top: 10px;
     }
 
     .contentContainer1 {
@@ -907,10 +911,13 @@ footer {
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        gap: 10px;
+        gap: 30px;
         padding-top: 0px;
     }
-
+    .contentContainer1 h2{
+        font-size: 12px;
+        max-width: 300px;
+    }
     .mobile {
         display: contents;
     }
@@ -927,7 +934,7 @@ footer {
     }
     .texts h1 {
         font-size: 33px;
-        width: 95%;
+        width: 90%;
         line-height: 35px;
     }
 
@@ -965,6 +972,12 @@ footer {
     .container2 h2 {
         font-size: 25px;
     }
+    .container3 h2{
+        padding: 5px 10px;
+    }
+    .container3 h3{
+        padding: 5px 10px;
+    }
     .contentC2{
         display: flex;
         flex-direction: column;
@@ -979,7 +992,15 @@ footer {
     .service p {
         font-size: 13px;
     }
-
+    .container4{
+        padding: 0px;
+        gap: 80px;
+    }
+    .allCards{
+        width: 100%;
+        padding: 20px 40px;
+        gap: 60px;
+    }
     .contentC5 {
         display: flex;
         flex-direction: column;
